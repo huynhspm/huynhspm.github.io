@@ -135,6 +135,7 @@ img {
 	height: 200px;
 	border-radius: 50%;
 	object-fit: cover;
+	object-position: center 20%;
 	border: 5px solid var(--primary);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
@@ -308,6 +309,11 @@ img {
 .badge-completed {
 	background: #eafaf1;
 	color: #27ae60;
+}
+
+.badge-unavailable {
+	background: #f2f3f4;
+	color: #95a5a6;
 }
 
 .badge-link a {
